@@ -1,0 +1,244 @@
+:root{
+--VeryDarkMagenta: hsl(300, 43%, 22%);
+--SoftPink: hsl(333, 80%, 67%);
+--DarkGrayishMagenta: hsl(303, 10%, 53%);
+--LightGrayishMagenta: hsl(300, 24%, 96%);
+--White: hsl(0, 0%, 100%);
+--font-family: 'Spartan', sans-serif;
+}
+
+body{
+    margin: 0%;
+    font-family: var(--font-family);
+    text-align: center;
+    padding-bottom: 200px;
+    
+    
+}
+.container1{
+    background-image: url(images/bg-pattern-top-mobile.svg);
+    background-repeat: no-repeat;
+    border: 1px solid white;
+
+    
+}
+
+.first-header{
+    color: var(--VeryDarkMagenta);
+    font-size: 2rem;
+    margin: 70px 30px 0 30px;
+}
+.first-p{
+    color: var(--DarkGrayishMagenta);
+    margin: 20px 20px 20px 20px ;
+    line-height: 1.6em;
+    font-size: .9rem;
+    font-weight: 500;
+}
+
+
+
+.rating1{
+    
+    margin: 20px 20px 10px 20px;
+    background-color: var(--LightGrayishMagenta);
+    color: var(--VeryDarkMagenta);
+    border-radius: 10px;
+    font-size: .8rem;
+}
+.rating2{
+    
+    margin: 20px 20px 10px 20px;
+    background-color: var(--LightGrayishMagenta);
+    color: var(--VeryDarkMagenta);
+    border-radius: 10px;
+    font-size: .8rem;
+}
+.rating3{
+    
+    margin: 20px 20px 10px 20px;
+    background-color: var(--LightGrayishMagenta);
+    color: var(--VeryDarkMagenta);
+    border-radius: 10px;
+    font-size: .8rem;
+}
+
+.star-img{
+    
+    margin: 10px 5px 0 0;
+    gap: 10px;
+}
+
+.review{
+    padding-bottom: 20px;
+}
+
+
+.Colton-box{
+    background-color: var(--VeryDarkMagenta);
+    margin: 30px 20px 20px 20px ;
+    border-radius: 10px;
+    padding: 20px 0 20px 0;
+    
+}
+.Irene-box{
+    background-color: var(--VeryDarkMagenta);
+    margin: 30px 20px 20px 20px ;
+    border-radius: 10px;
+    padding: 20px 0 20px 0;
+    
+}
+.Anne-box{
+    background-color: var(--VeryDarkMagenta);
+    margin: 30px 20px 0 20px ;
+    border-radius: 10px;
+    padding: 20px 0 20px 0;
+    
+}
+
+
+.top-box{
+    color: white;
+    font-size: .9rem;
+    line-height: 1.6em;
+    margin: 30px 0 0 0 ;
+    
+    max-width: 220px;
+
+    
+}
+.profile-img{
+    float: left;
+}
+
+.profile-img{
+    border-radius: 100%;
+    width: 45px;   
+    margin: 30px 0 15px 30px;
+    
+}
+
+.buyer{
+    color: var(--SoftPink);
+}
+
+.p{
+    color: white;
+    margin: 30px 30px 30px 35px;
+    text-align: left;
+    line-height: 1.8em;
+    font-size: .8rem;
+}
+.bgimg{
+    
+    width: 0%;
+}
+
+@media (min-width:950px){
+    body{
+        padding-bottom: 0;
+    }
+
+    .container-main{
+        background-image: url(images/bg-pattern-top-desktop.svg);
+        border: 1px solid white;
+        background-repeat: no-repeat;
+        margin-bottom: 0;
+        padding-bottom: 0%;
+    }
+
+   .container1{
+       display: flex;
+       margin: 110px 110px 30px 110px;
+       background-image: url(#);
+       
+       
+
+   }
+
+   .first-header{
+        width: 400px;
+        font-size: 40px;
+        text-align: left;
+        margin: 20px 0 0 30px;
+   }
+   .first-p{
+       width: 540px;
+       font-size: 1.1rem;
+       text-align: left;
+       margin: 10px 0 0 30px;
+   }
+
+
+
+    .rating1{
+        display: flex;
+        gap: 30px;
+        width: 420px;
+        padding: 5px 0 0px 30px;
+        position: relative;
+        left: 150px;
+        align-content: center;
+        
+    }
+    .rating2{
+        display: flex;
+        gap: 30px;
+        width: 420px;
+        padding: 5px 0 0px 30px;
+        align-content: center;
+        position: relative;
+        left: 200px;
+    }
+    .rating3{
+        display: flex;
+        gap: 30px;
+        width: 420px;
+        padding: 5px 0 0px 30px;
+        position: relative;
+        left: 250px;
+        
+    }
+    .review{
+        margin: 13px 0 0 0;    
+        
+    }
+
+  
+
+    .container2{
+        display: flex;
+        margin: 110px 110px 0 110px;
+        position: relative;
+    }
+
+    .Colton-box{
+        position: relative;
+        bottom: 50px;
+    }
+    .Irene-box{
+        position: relative;
+        bottom: 30px;
+        
+    }
+
+    .Anne-box{
+        position: relative;
+        bottom: 10px;
+    }
+
+    .p{
+        width: 340px;
+    }
+
+     .bgimg{
+         position: absolute;
+        width: 30%;
+        height: 60%;
+        top: 430px;
+        left: 400px;
+     }
+    
+
+}
+
